@@ -48,7 +48,7 @@ salifort-motors-employee-attrition/
 
 ## 📈 Estado
 
-🚧 Proyecto en construcción.
+✅Proyecto en construcción.
 
 Próximamente se incorporarán:
 
@@ -96,6 +96,55 @@ Resultados del modelo de Machine Learning utilizados para evaluar el rendimiento
 
 ![Matriz de confusión](images/confusion_matrix.png)
 
+# 📈 Resultados del modelo
+
+Se entrenaron dos modelos de clasificación para predecir la rotación de empleados:
+
+- Logistic Regression
+- XGBoost
 
 
+El modelo XGBoost obtuvo el mejor desempeño general.
+
+| Modelo | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|---------|---------:|----------:|--------:|---------:|--------:|
+| Logistic Regression | 0.84 | 0.51 | 0.21 | 0.30 | 0.82 |
+| XGBoost | 0.98 | 0.96 | 0.93 | 0.95 | 0.98 |
+
+
+# 📌 Conclusiones
+
+Los resultados muestran que variables como:
+
+- Satisfaction Level
+- Tenure
+- Number of Projects
+- Last Evaluation
+
+son los factores con mayor influencia en la rotación de empleados.
+
+El modelo XGBoost fue el de mejor rendimiento, alcanzando aproximadamente un 98% de Accuracy y un ROC-AUC cercano a 0.98.
+
+# 🚀 Cómo ejecutar el proyecto
+
+1. Clonar el repositorio
+
+git clone https://github.com/angelarayarobles/salifort-motors-employee-attrition.git
+
+2. Instalar dependencias
+
+pip install -r requirements.txt
+
+3. Abrir
+
+notebooks/salifort_motors_employee_attrition.ipynb
+
+# 👨‍💻 Autor
+
+Ángel Araya Robles
+
+• Ingeniería Industrial
+• Google Data Analytics Professional Certificate
+• GitHub:
+https://github.com/angelarayarobles
 
