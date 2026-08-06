@@ -48,7 +48,7 @@ salifort-motors-employee-attrition/
 
 ## 📈 Estado
 
-✅Proyecto en construcción.
+✅Proyecto finalizado.
 
 Próximamente se incorporarán:
 
