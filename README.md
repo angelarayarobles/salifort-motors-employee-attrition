@@ -189,5 +189,14 @@ notebooks/salifort_motors_employee_attrition.ipynb
 • GitHub:
 https://github.com/angelarayarobles
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![Pandas](https://img.shields.io/badge/Pandas-2.x-purple)
+
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+
+![XGBoost](https://img.shields.io/badge/XGBoost-3.4-green)
+
+![License](https://img.shields.io/badge/License-MIT-success)
 
 Proyecto desarrollado como parte del Google Data Analytics Professional Certificate y ampliado con técnicas de Machine Learning para fortalecer el portafolio profesional.
