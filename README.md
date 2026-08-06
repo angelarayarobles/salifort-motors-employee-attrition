@@ -1,12 +1,31 @@
 # 🏢 Salifort Motors - Predicción de Rotación de Empleados
 
+
+## Contenido
+
+- Descripción
+- Objetivos
+- Tecnologías
+- Estructura
+- Visualizaciones
+- Resultados
+- Conclusiones
+- Instalación
+- Autor
+- 
+
 ## 📌 Descripción del proyecto
 
 Este proyecto analiza los factores asociados a la rotación de empleados en Salifort Motors utilizando técnicas de Análisis Exploratorio de Datos (EDA) y modelos de Machine Learning.
 
 El objetivo es identificar las variables que influyen en la salida de empleados y entregar información útil para apoyar la toma de decisiones del área de Recursos Humanos.
 
----
+
+## Problema de negocio
+
+La alta rotación de empleados genera costos de contratación, capacitación y pérdida de conocimiento dentro de la empresa.
+
+Este proyecto busca identificar los factores asociados a la salida de empleados para apoyar decisiones estratégicas del área de Recursos Humanos.
 
 ## 🎯 Objetivos
 
@@ -50,14 +69,15 @@ salifort-motors-employee-attrition/
 
 ✅Proyecto finalizado.
 
-Próximamente se incorporarán:
+Incluye:
 
-- Análisis exploratorio de datos (EDA)
+- Limpieza de datos
+- Análisis exploratorio (EDA)
 - Visualizaciones
-- Modelos de Machine Learning
-- Resultados
+- Logistic Regression
+- XGBoost
+- Comparación de modelos
 - Conclusiones
-- Recomendaciones para el negocio
 
 ---
 
@@ -96,6 +116,15 @@ Resultados del modelo de Machine Learning utilizados para evaluar el rendimiento
 
 ![Matriz de confusión](images/confusion_matrix.png)
 
+
+## Insights principales
+
+- Los empleados con menor satisfacción abandonan con mayor frecuencia.
+- La antigüedad es una de las variables más importantes.
+- El número de proyectos influye en la rotación.
+- El nivel salarial bajo presenta una mayor proporción de abandono.
+
+
 # 📈 Resultados del modelo
 
 Se entrenaron dos modelos de clasificación para predecir la rotación de empleados:
@@ -110,6 +139,18 @@ El modelo XGBoost obtuvo el mejor desempeño general.
 |---------|---------:|----------:|--------:|---------:|--------:|
 | Logistic Regression | 0.84 | 0.51 | 0.21 | 0.30 | 0.82 |
 | XGBoost | 0.98 | 0.96 | 0.93 | 0.95 | 0.98 |
+
+## Modelo seleccionado
+
+Se seleccionó XGBoost porque obtuvo:
+
+- Mayor Accuracy
+- Mayor Precision
+- Mayor Recall
+- Mayor F1 Score
+- Mejor ROC-AUC
+
+Por ello se considera el modelo más adecuado para identificar empleados con mayor riesgo de abandonar la empresa.
 
 
 # 📌 Conclusiones
@@ -148,3 +189,5 @@ notebooks/salifort_motors_employee_attrition.ipynb
 • GitHub:
 https://github.com/angelarayarobles
 
+
+Proyecto desarrollado como parte del Google Data Analytics Professional Certificate y ampliado con técnicas de Machine Learning para fortalecer el portafolio profesional.
